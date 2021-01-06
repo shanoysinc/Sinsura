@@ -27,13 +27,13 @@
 			text-transform: uppercase;
 			font-size: 0.875rem;
 			padding: 1.5em 2em;
-			background-color: rgba(30, 180, 212, 0.8);
+			background-color: hsla(191, 75%, 47%, 0.8);
+			transition: all 0.2s ease-in-out;
+		}
+		& > .btn:hover {
+			background-color: hsla(191, 75%, 40%, 0.8);
+			transform: scale(0.97);
 		}
 	}
 	padding-bottom: 1.5em;
-}
-
-.link {
-	color: hsl(209, 50%, 57%);
-	font-weight: 600;
 }
