@@ -1,4 +1,5 @@
 import styles from "../../styles/mainJumbotron/mainJumbotron.module.scss";
+import RightArrow from "../../public/svg/Right-Arrow.svg";
 const MainJumbotron = () => {
 	return (
 		<div className={styles.container}>
@@ -14,12 +15,13 @@ const MainJumbotron = () => {
 
 			<div className={styles.btnContainer}>
 				<a href="/">
-					<button className={styles.btn}>Start for free</button>
+					<button className={styles.btn}>Start for free </button>
 				</a>
 			</div>
 
 			<a href="/" className={styles.link}>
-				Run it yourself with Docker
+				<span>Run it yourself with Docker</span>
+				<RightArrow height={13} width={14} fill="currentColor" />
 			</a>
 		</div>
 	);
