@@ -9,6 +9,13 @@ body {
 a {
 	color: inherit;
 	text-decoration: none;
+	color: hsl(209, 50%, 57%);
+	font-weight: 600;
+
+	& > span {
+		color: hsl(209, 50%, 57%);
+		padding-right: 0.5em;
+	}
 }
 
 * {
