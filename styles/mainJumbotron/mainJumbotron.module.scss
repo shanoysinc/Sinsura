@@ -1,0 +1,39 @@
+.container {
+	margin-top: 5em;
+	text-align: center;
+}
+
+.subTitle {
+	font-size: 1.4rem;
+	font-weight: 600;
+}
+
+.title {
+	color: rgb(27, 39, 56);
+	font-size: 1.875rem;
+	font-weight: 700;
+}
+
+.paragraph {
+	color: rgb(113, 119, 128);
+	font-size: 0.875rem;
+}
+
+.btnContainer {
+	& > a {
+		& > .btn {
+			color: white;
+			font-weight: 600;
+			text-transform: uppercase;
+			font-size: 0.875rem;
+			padding: 1.5em 2em;
+			background-color: rgba(30, 180, 212, 0.8);
+		}
+	}
+	padding-bottom: 1.5em;
+}
+
+.link {
+	color: hsl(209, 50%, 57%);
+	font-weight: 600;
+}

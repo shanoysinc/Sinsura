@@ -1,0 +1,28 @@
+import styles from "../../styles/mainJumbotron/mainJumbotron.module.scss";
+const MainJumbotron = () => {
+	return (
+		<div className={styles.container}>
+			<p className={styles.subTitle}>
+				Build modern apps and APIs with Hasura
+			</p>
+			<h1 className={styles.title}>
+				Instant GraphQL with built-in authorization for your data
+			</h1>
+			<p className={styles.paragraph}>
+				Get started for free in 30 seconds on Hasura Cloud
+			</p>
+
+			<div className={styles.btnContainer}>
+				<a href="/">
+					<button className={styles.btn}>Start for free</button>
+				</a>
+			</div>
+
+			<a href="/" className={styles.link}>
+				Run it yourself with Docker
+			</a>
+		</div>
+	);
+};
+
+export default MainJumbotron;
