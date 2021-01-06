@@ -1,0 +1,12 @@
+.container {
+	margin-top: 2.5em;
+	& > h3 {
+		font-size: 0.9rem;
+		color: hsl(209, 50%, 57%);
+	}
+	& > p {
+		font-size: 0.9rem;
+		color: #717780;
+		line-height: 1.8;
+	}
+}
