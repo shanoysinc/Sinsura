@@ -3,7 +3,7 @@ import NavBar from "../components/navbar/Navbar";
 import MainJumbotron from "../components/jumbotron/MainJumbotron";
 import CompanyStories from "../components/companyStories/CompanyStories";
 import Options from "../components/options/Options";
-
+import Fetaures from "../components/features/Features";
 export default function Home() {
 	return (
 		<>
@@ -12,6 +12,7 @@ export default function Home() {
 				<MainJumbotron />
 				<CompanyStories />
 				<Options />
+				<Fetaures />
 			</div>
 		</>
 	);
