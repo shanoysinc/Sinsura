@@ -1,0 +1,32 @@
+.container {
+	margin-top: 3.5em;
+	text-align: center;
+}
+
+.innerContainer {
+	display: inline-block;
+	// margin: 2.5em 5em 5em 5em;
+}
+
+.pLangContainer {
+	background-color: white;
+	border-radius: 8px;
+	padding: 2em;
+	margin-top: 2.5em;
+}
+.pLangImg {
+	height: 90px;
+	width: 120px;
+}
+
+.infoContainer {
+	border-left: 2px solid hsl(209, 50%, 57%);
+
+	text-align: start;
+	padding-left: 1em;
+
+	margin-top: 1.5em;
+	font-size: 0.875em;
+	color: #717780;
+	line-height: 1.8;
+}
