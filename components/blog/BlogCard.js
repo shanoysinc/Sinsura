@@ -5,8 +5,7 @@ const BlogCard = ({ image, content }) => {
 		<a href="/" className={styles.container}>
 			<img src={image} alt="news Icon" />
 			<p>
-				{content}
-				<span>→</span>{" "}
+				{content} <span> →</span>
 			</p>
 		</a>
 	);
