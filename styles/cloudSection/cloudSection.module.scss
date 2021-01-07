@@ -1,10 +1,11 @@
 .container {
 	margin: 0 -2.5em 0 -2.5em;
 	background-color: #d6ebff;
+	padding-bottom: 0.5em;
 }
 
 .innerContainer {
-	margin: 4em 2.5em 0 2.5em;
+	margin: 4em 2.5em 5em 2.5em;
 	padding-top: 2.5em;
 }
 
@@ -39,4 +40,18 @@
 		}
 	}
 	padding-bottom: 1.5em;
+}
+
+.newItemCard {
+	background-color: white;
+	padding: 0.5em 1.5em;
+	border-radius: 8px;
+	& > .newLabel {
+		width: fit-content;
+		font-weight: 700;
+		background-color: #ffc267;
+		padding: 0 0.6em;
+		font-size: 0.8rem;
+		text-transform: uppercase;
+	}
 }
