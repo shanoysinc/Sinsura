@@ -1,21 +1,23 @@
 .container {
-	margin: 0 -2.5em 0 -2.5em;
+	margin: 0 -2em 0 -2em;
 	background-color: #d6ebff;
 	padding-bottom: 0.5em;
 }
 
 .innerContainer {
-	margin: 4em 2.5em 5em 2.5em;
+	margin: 4em 2em 5em 2em;
 	padding-top: 2.5em;
 }
 
 .subTitle {
 	font-weight: 600;
 	font-size: 0.875rem;
+	text-transform: capitalize;
 }
 
 .title {
 	font-size: 1.5rem;
+	text-transform: capitalize;
 }
 
 .paragraph {
