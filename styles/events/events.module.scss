@@ -1,0 +1,51 @@
+.container {
+	padding-bottom: 0.5em;
+	background-color: rgb(17, 27, 41);
+	margin: 0 -2em 0 -2em;
+}
+
+.innerContainer {
+	margin: 4em 2em 5em 2em;
+
+	padding-top: 2.5em;
+}
+
+.subTitle {
+	font-weight: 600;
+	font-size: 0.875rem;
+	text-transform: capitalize;
+
+	color: rgb(92, 148, 200);
+}
+
+.title {
+	font-size: 1.5rem;
+	text-transform: capitalize;
+	color: rgb(214, 235, 255);
+}
+
+.btnContainer {
+	& > a {
+		& > .btn {
+			color: white;
+			font-weight: 600;
+			font-size: 0.875rem;
+			padding: 1.5em 2em;
+			background-color: hsla(191, 75%, 47%, 0.8);
+			transition: all 0.2s ease-in-out;
+		}
+		& > .btn:hover {
+			background-color: hsla(191, 75%, 40%, 0.8);
+			transform: scale(0.97);
+		}
+	}
+	padding-bottom: 1.5em;
+}
+
+.eventTitle {
+	font-weight: 600;
+	font-size: 1rem;
+	text-transform: capitalize;
+
+	color: rgb(214, 235, 255);
+}

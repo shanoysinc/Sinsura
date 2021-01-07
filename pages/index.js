@@ -6,6 +6,8 @@ import Options from "../components/options/Options";
 import Fetaures from "../components/features/Features";
 import CloudSection from "../components/Cloud Section/CloudSection";
 import LegacySection from "../components/legacy section/LegacySection";
+import Events from "../components/events/Events";
+
 export default function Home() {
 	return (
 		<>
@@ -17,6 +19,7 @@ export default function Home() {
 				<Fetaures />
 				<CloudSection />
 				<LegacySection />
+				<Events />
 			</div>
 		</>
 	);
