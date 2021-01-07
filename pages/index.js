@@ -4,6 +4,7 @@ import MainJumbotron from "../components/jumbotron/MainJumbotron";
 import CompanyStories from "../components/companyStories/CompanyStories";
 import Options from "../components/options/Options";
 import Fetaures from "../components/features/Features";
+import CloudSection from "../components/Cloud Section/CloudSection";
 export default function Home() {
 	return (
 		<>
@@ -13,6 +14,7 @@ export default function Home() {
 				<CompanyStories />
 				<Options />
 				<Fetaures />
+				<CloudSection />
 			</div>
 		</>
 	);
