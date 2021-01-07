@@ -1,0 +1,44 @@
+.container {
+	padding-bottom: 0.5em;
+}
+
+.innerContainer {
+	padding-top: 2.5em;
+}
+
+.subTitle {
+	font-weight: 600;
+	font-size: 0.875rem;
+	text-transform: capitalize;
+
+	color: rgb(92, 148, 200);
+}
+
+.title {
+	font-size: 1.5rem;
+	text-transform: capitalize;
+}
+
+.paragraph {
+	font-size: 0.875rem;
+	line-height: 1.7;
+}
+
+.btnContainer {
+	& > a {
+		& > .btn {
+			color: white;
+			font-weight: 600;
+			text-transform: uppercase;
+			font-size: 0.875rem;
+			padding: 1.5em 2em;
+			background-color: hsla(191, 75%, 47%, 0.8);
+			transition: all 0.2s ease-in-out;
+		}
+		& > .btn:hover {
+			background-color: hsla(191, 75%, 40%, 0.8);
+			transform: scale(0.97);
+		}
+	}
+	padding-bottom: 1.5em;
+}

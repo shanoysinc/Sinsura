@@ -5,6 +5,7 @@ import CompanyStories from "../components/companyStories/CompanyStories";
 import Options from "../components/options/Options";
 import Fetaures from "../components/features/Features";
 import CloudSection from "../components/Cloud Section/CloudSection";
+import LegacySection from "../components/legacy section/LegacySection";
 export default function Home() {
 	return (
 		<>
@@ -15,6 +16,7 @@ export default function Home() {
 				<Options />
 				<Fetaures />
 				<CloudSection />
+				<LegacySection />
 			</div>
 		</>
 	);
