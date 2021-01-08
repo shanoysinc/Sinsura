@@ -1,4 +1,5 @@
 import styles from "../../styles/events/events.module.scss";
+import Image from "next/image";
 
 const Events = () => {
 	return (
@@ -24,8 +25,37 @@ const Events = () => {
 				</div>
 				<div className={styles.firstCol}>
 					<p className={styles.eventTitle}>Upcoming Events </p>
+					<Image
+						src="/svg/workshop.svg"
+						height="600"
+						layout="fixed"
+						width="400"
+						style={styles.upcomingImgSVG}
+					/>
+					<div className={styles.upcomingEvents}>
+						<p className={styles.gridParagraph}>
+							Asia's biggest GraphQL Conference is coming back in
+							Feb 2021 and is now accepting proposals for talks &
+							workshops!
+						</p>
+					</div>
 				</div>
-				<div className={styles.firstCol}></div>
+				<div className={styles.firstCol}>
+					<div className={styles.upcomingEvents}>
+						<Image
+							src="/svg/community-call.svg"
+							height="600"
+							width="400"
+							layout="fixed"
+							style={styles.upcomingImgSVG}
+						/>
+						<p className={styles.gridParagraph}>
+							Asia's biggest GraphQL Conference is coming back in
+							Feb 2021 and is now accepting proposals for talks &
+							workshops!
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	);

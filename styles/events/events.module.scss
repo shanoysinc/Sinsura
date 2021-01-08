@@ -14,7 +14,6 @@
 	font-weight: 600;
 	font-size: 0.875rem;
 	text-transform: capitalize;
-
 	color: rgb(92, 148, 200);
 }
 
@@ -46,6 +45,20 @@
 	font-weight: 600;
 	font-size: 1rem;
 	text-transform: capitalize;
+	margin-bottom: -2em;
 
 	color: rgb(214, 235, 255);
+}
+.gridParagraph {
+	font-size: 0.875rem;
+	margin-top: -3em;
+	line-height: 1.7;
+	color: #d6ebff;
+}
+.upcomingImgSVG {
+}
+
+.upcomingEvents {
+	display: flex;
+	flex-direction: column;
 }
