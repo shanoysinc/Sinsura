@@ -28,7 +28,7 @@ const Events = () => {
 					<Image
 						src="/svg/workshop.svg"
 						height="600"
-						layout="fixed"
+						layout="intrinsic"
 						width="400"
 						style={styles.upcomingImgSVG}
 					/>
@@ -46,7 +46,7 @@ const Events = () => {
 							src="/svg/community-call.svg"
 							height="600"
 							width="400"
-							layout="fixed"
+							layout="intrinsic"
 							style={styles.upcomingImgSVG}
 						/>
 						<p className={styles.gridParagraph}>
