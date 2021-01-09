@@ -7,6 +7,7 @@ import Fetaures from "../components/features/Features";
 import CloudSection from "../components/Cloud Section/CloudSection";
 import LegacySection from "../components/legacy section/LegacySection";
 import Events from "../components/events/Events";
+import Footer from "../components/footer/Footer";
 
 export default function Home() {
 	return (
@@ -20,6 +21,7 @@ export default function Home() {
 				<CloudSection />
 				<LegacySection />
 				<Events />
+				<Footer />
 			</div>
 		</>
 	);
