@@ -1,6 +1,8 @@
 import NewsLetter from "../newsLetter/NewsLetter";
 import styles from "../../styles/footer/footer.module.scss";
 import FooterItems from "./FooterItems";
+import CopyWriteInfo from "./CopyWriteInfo";
+
 const hasura = {
 	title: "hasura",
 	items: ["about us", "Press", "careers", "contact us", "legal stuff"],
@@ -68,6 +70,7 @@ const Footer = () => {
 					<FooterItems content={resources} />
 					<FooterItems content={community} />
 				</div>
+				<CopyWriteInfo />
 			</div>
 		</div>
 	);
