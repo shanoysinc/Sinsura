@@ -1,0 +1,43 @@
+.newsLetterContainer {
+	color: white;
+	& > h3 {
+		font-weight: 600;
+		font-size: 1.5rem;
+		text-transform: capitalize;
+	}
+	& > p {
+		font-size: 0.875rem;
+		line-height: 1.7;
+		letter-spacing: 0.03em;
+	}
+
+	& > input {
+		margin-top: 2em;
+		width: 100%;
+		border-radius: 8px;
+		font-size: 1rem;
+		padding: 1em 4em 1em 1em;
+		outline: none;
+		border: 0;
+	}
+}
+
+.btnContainer {
+	margin-top: 1.5em;
+	& > a {
+		& > .btn {
+			color: white;
+			font-weight: 600;
+			text-transform: uppercase;
+			font-size: 0.875rem;
+			padding: 1.5em 5em;
+			background-color: hsla(215, 35%, 16%, 0.8);
+			transition: all 0.2s ease-in-out;
+		}
+		& > .btn:hover {
+			background-color: hsla(215, 35%, 9%, 0.8);
+			transform: scale(0.97);
+		}
+	}
+	padding-bottom: 1.5em;
+}
