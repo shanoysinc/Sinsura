@@ -2,35 +2,50 @@ import React from "react";
 import styles from "../../styles/cloudSection/cloudSection.module.scss";
 import FeatureItems from "../../components/features/FeatureItems";
 import BlogCard from "../blog/BlogCard";
+import Image from "next/image";
 
 const CloudSection = () => {
 	return (
 		<div className={styles.container}>
 			<div className={styles.innerContainer}>
-				<p className={styles.subTitle}>Get Started in 30 seconds</p>
-				<h3 className={styles.title}>
-					Hasura Cloud: GraphQL in production made easy
-				</h3>
-				<p className={styles.paragraph}>
-					Hasura Cloud is a fully managed, globally available,
-					production ready GraphQL API as a service that integrates
-					with your existing data sources.
-				</p>
+				<div className={styles.gridContainer}>
+					<div className={styles.gridheader}>
+						<p className={styles.subTitle}>
+							Get Started in 30 seconds
+						</p>
+						<h3 className={styles.title}>
+							Hasura Cloud: GraphQL in production made easy
+						</h3>
+						<p className={styles.paragraph}>
+							Hasura Cloud is a fully managed, globally available,
+							production ready GraphQL API as a service that
+							integrates with your existing data sources.
+						</p>
 
-				<div className={styles.btnContainer}>
-					<a href="/">
-						<button className={styles.btn}>
-							Get started for free
-						</button>
-					</a>
+						<div className={styles.btnContainer}>
+							<a href="/">
+								<button className={styles.btn}>
+									Get started for free
+								</button>
+							</a>
+						</div>
+						<div className={styles.newItemCard}>
+							<p className={styles.newLabel}>new</p>
+							<a href="/" className={styles.link}>
+								Hasura Cloud Achieves SOC2 and HIPAA Compliance
+								<span> →</span>
+							</a>
+						</div>
+					</div>
+					<div className={styles.gridImg}>
+						<Image
+							src="/svg/lightening.svg"
+							height="200"
+							width="200"
+						/>
+					</div>
 				</div>
-				<div className={styles.newItemCard}>
-					<p className={styles.newLabel}>new</p>
-					<a href="/" className={styles.link}>
-						Hasura Cloud Achieves SOC2 and HIPAA Compliance
-						<span> →</span>
-					</a>
-				</div>
+
 				<FeatureItems
 					icon="/svg/feature_icon_4.svg"
 					title="Fully Managed"
