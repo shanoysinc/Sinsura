@@ -44,8 +44,8 @@ const CompanyStories = () => {
 
 			<div className={styles.linkWrapper}>
 				<a href="/" className={styles.link}>
-					<span>Read our user stories</span>
-					<RightArrow height={13} width={14} fill="currentColor" />
+					Read our user stories
+					<span> →</span>
 				</a>
 			</div>
 		</div>

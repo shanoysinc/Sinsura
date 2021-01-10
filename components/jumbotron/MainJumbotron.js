@@ -21,8 +21,8 @@ const MainJumbotron = () => {
 			</div>
 
 			<a href="/" className={styles.link}>
-				<span>Run it yourself with Docker</span>
-				<RightArrow height={13} width={14} fill="currentColor" />
+				Run it yourself with Docker
+				<span> →</span>
 			</a>
 		</div>
 	);
