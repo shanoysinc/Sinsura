@@ -9,11 +9,13 @@ const NewsLetter = () => {
 				new features, and occasional baby animal gifs! Oh, and we have a
 				strict no-spam rule. ✌️
 			</p>
-			<input type="text" placeholder="Your Email Address" />
-			<div className={styles.btnContainer}>
-				<a href="/">
-					<button className={styles.btn}>Subscribe</button>
-				</a>
+			<div className={styles.inputContainer}>
+				<input type="text" placeholder="Your Email Address" />
+				<div className={styles.btnContainer}>
+					<a href="/">
+						<button className={styles.btn}>Subscribe</button>
+					</a>
+				</div>
 			</div>
 		</div>
 	);

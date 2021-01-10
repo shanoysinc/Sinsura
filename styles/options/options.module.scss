@@ -61,3 +61,8 @@
 		width: 100px;
 	}
 }
+@media screen and (min-width: 70em) {
+	.container {
+		margin: 8em 8em 0 8em;
+	}
+}

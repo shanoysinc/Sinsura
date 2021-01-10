@@ -14,3 +14,9 @@
 	display: flex;
 	flex-wrap: wrap;
 }
+
+@media screen and (min-width: 70em) {
+	.innerContainer {
+		margin: 0 8em;
+	}
+}
