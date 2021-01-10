@@ -68,10 +68,22 @@
 @media screen and (min-width: 48em) {
 	.gridContainer {
 		display: grid;
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(3, 1fr);
 		gap: 4em;
+		& > .gridheader {
+			grid-column: 1 / span 2;
+		}
+
 		& > .gridImg {
 			display: grid;
+		}
+	}
+
+	.newItemCard {
+		display: flex;
+		align-items: center;
+		& > .link {
+			margin-left: 1em;
 		}
 	}
 }
