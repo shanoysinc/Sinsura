@@ -74,6 +74,7 @@
 
 		& > .btnContainer {
 			display: flex;
+
 			align-items: flex-end;
 		}
 	}
@@ -82,5 +83,16 @@
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		gap: 2em;
+	}
+}
+
+@media screen and (min-width: 61em) {
+	.btnContainer {
+		& > a {
+			width: 100%;
+			& > .btn {
+				width: 100%;
+			}
+		}
 	}
 }
