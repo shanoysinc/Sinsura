@@ -1,6 +1,9 @@
 .container {
-	margin-top: 3.5em;
+	margin-top: 8em;
 	text-align: center;
+	& > h2 {
+		font-weight: 700;
+	}
 }
 
 .innerContainer {
@@ -28,4 +31,19 @@
 	font-size: 0.875em;
 	color: #717780;
 	line-height: 1.8;
+}
+
+@media screen and (min-width: 48em) {
+	.container {
+		& > h2 {
+			font-size: 1.875rem;
+		}
+	}
+
+	.innerContainer,
+	.optionInfoContainer {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 2.5em;
+	}
 }
