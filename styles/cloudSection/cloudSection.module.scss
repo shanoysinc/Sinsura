@@ -86,4 +86,10 @@
 			margin-left: 1em;
 		}
 	}
+
+	.featureItemGrid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1em 4em;
+	}
 }
