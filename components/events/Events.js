@@ -29,7 +29,11 @@ const Events = () => {
 					<div className={styles.eventGridItem}>
 						<div>
 							<div className={styles.workshop__v}>
-								<img src="/svg/workshop-v.svg" alt="" />
+								<img
+									src="/svg/workshop-v.svg"
+									alt=""
+									className={styles.workshop__vSvg}
+								/>
 							</div>
 							<div className={styles.workshop__h}>
 								<img src="/svg/workshop-h.svg" alt="" />

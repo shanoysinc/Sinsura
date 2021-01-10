@@ -28,10 +28,6 @@
 	color: #d6ebff;
 }
 
-.eventGridItem > div {
-	width: min-content;
-}
-
 .btnContainer {
 	& > a {
 		& > .btn {
@@ -59,11 +55,19 @@
 	color: rgb(214, 235, 255);
 }
 
+.workshop__vSvg,
+.communityCallSvg {
+	width: 80%;
+}
+
 .workshop__h {
 	display: none;
 }
 
 @media screen and (min-width: 48em) {
+	.eventGridItem > div {
+		width: min-content;
+	}
 	.workshop__v {
 		display: none;
 	}
@@ -76,6 +80,7 @@
 
 	.communityCallSvg {
 		height: 340px;
+		width: initial;
 	}
 	.gridContainer {
 		display: grid;
