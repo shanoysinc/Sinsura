@@ -1,5 +1,4 @@
 import styles from "../../styles/mainJumbotron/mainJumbotron.module.scss";
-import RightArrow from "../../public/svg/Right-Arrow.svg";
 
 const MainJumbotron = () => {
 	return (

@@ -1,5 +1,4 @@
 import styles from "../../styles/companyStories/companyStories.module.scss";
-import RightArrow from "../../public/svg/Right-Arrow.svg";
 
 const CompanyStories = () => {
 	return (

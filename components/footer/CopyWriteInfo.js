@@ -1,6 +1,7 @@
 import styles from "../../styles/footer/copyWriteInfo.module.scss";
 import Image from "next/image";
 import Link from "next/link";
+
 const CopyWriteInfo = () => {
 	return (
 		<div className={styles.container}>
