@@ -24,20 +24,16 @@ const Events = () => {
 						</a>
 					</div>
 				</div>
-				<div className={styles.eventCardGrid}>
-					<div className={styles.eventCardGrid__1}>
-						<p className={styles.eventTitle}>Upcoming Events </p>
-						<Link href="/">
-							<a>
-								<Image
-									src="/svg/workshop.svg"
-									height="600"
-									width="400"
-									style={styles.upcomingImgSVG}
-								/>
-							</a>
-						</Link>
-						<div className={styles.upcomingEvents}>
+				<p className={styles.eventTitle}>Upcoming Events </p>
+				<div className={styles.eventGrid}>
+					<div className={styles.eventGridItem}>
+						<div>
+							<div className={styles.workshop__v}>
+								<img src="/svg/workshop-v.svg" alt="" />
+							</div>
+							<div className={styles.workshop__h}>
+								<img src="/svg/workshop-h.svg" alt="" />
+							</div>
 							<p className={styles.gridParagraph}>
 								Asia's biggest GraphQL Conference is coming back
 								in Feb 2021 and is now accepting proposals for
@@ -45,23 +41,16 @@ const Events = () => {
 							</p>
 						</div>
 					</div>
-					<div className={styles.eventCardGrid__2}>
-						<div className={styles.upcomingEvents}>
-							<Link href="/">
-								<a>
-									<Image
-										src="/svg/community-call.svg"
-										height="600"
-										width="400"
-										style={styles.upcomingImgSVG}
-									/>
-								</a>
-							</Link>
-
+					<div className={styles.eventGridItem}>
+						<div>
+							<img
+								src="/svg/community-call.svg"
+								alt=""
+								className={styles.communityCallSvg}
+							/>
 							<p className={styles.gridParagraph}>
-								Asia's biggest GraphQL Conference is coming back
-								in Feb 2021 and is now accepting proposals for
-								talks & workshops!
+								Join our monthly call and stay up-to-date on all
+								things Hasura.
 							</p>
 						</div>
 					</div>
