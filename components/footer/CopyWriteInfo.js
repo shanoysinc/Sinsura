@@ -5,7 +5,7 @@ import Link from "next/link";
 const CopyWriteInfo = () => {
 	return (
 		<div className={styles.container}>
-			<p>© 2021 Hasura Inc. All rights reserved</p>
+			<p>© 2021 Hasura Clone Inc. All rights reserved</p>
 			<div className={styles.socialIconsContainer}>
 				<Link href="/">
 					<a>
