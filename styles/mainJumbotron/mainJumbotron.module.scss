@@ -46,3 +46,26 @@
 		font-size: 3.125rem;
 	}
 }
+
+@media screen and (min-width: 61em) {
+	.container {
+		margin: 5em 5em 0 5em;
+	}
+
+	.title {
+		font-size: 4.375rem;
+	}
+	.btnContainer {
+		& > a {
+			& > .btn {
+				// color: white;
+				// font-weight: 600;
+				// text-transform: uppercase;
+				// font-size: 0.875rem;
+				padding: 1.5em 8em;
+				// background-color: hsla(191, 75%, 47%, 0.8);
+				// transition: all 0.2s ease-in-out;
+			}
+		}
+	}
+}
