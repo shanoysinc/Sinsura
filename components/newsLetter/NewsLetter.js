@@ -10,7 +10,12 @@ const NewsLetter = () => {
 				strict no-spam rule. ✌️
 			</p>
 			<div className={styles.inputContainer}>
-				<input type="text" placeholder="Your Email Address" />
+				<label htmlFor="email"></label>
+				<input
+					type="text"
+					placeholder="Your Email Address"
+					id="email"
+				/>
 				<div className={styles.btnContainer}>
 					<a href="/">
 						<button className={styles.btn}>Subscribe</button>
