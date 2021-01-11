@@ -1,40 +1,54 @@
 import styles from "../../styles/companyStories/companyStories.module.scss";
-
+import Image from "next/image";
 const CompanyStories = () => {
 	return (
 		<div className={styles.container}>
 			<div className={styles.storiesContainer}>
-				<img
+				<Image
+					width={140}
+					height={120}
 					src="/svg/user_stories_1.svg"
 					alt="user stories"
 					className={styles.companyIcon}
 				/>
-				<img
+				<Image
+					width={140}
+					height={100}
 					src="/svg/user_stories_2.svg"
 					alt="user stories"
 					className={styles.companyIcon}
 				/>
-				<img
+				<Image
+					width={100}
+					height={100}
 					src="/svg/user_stories_3.svg"
 					alt="user stories"
 					className={styles.companyIcon}
 				/>
-				<img
+				<Image
+					width={140}
+					height={100}
 					src="/svg/user_stories_4.svg"
 					alt="user stories"
 					className={styles.companyIcon}
 				/>
-				<img
+				<Image
+					width={140}
+					height={100}
 					src="/svg/user_stories_5.svg"
 					alt="user stories"
 					className={styles.companyIcon}
 				/>
-				<img
+				<Image
+					width={140}
+					height={100}
 					src="/svg/user_stories_6.svg"
 					alt="user stories"
 					className={styles.companyIcon}
 				/>
-				<img
+				<Image
+					width={140}
+					height={100}
 					src="/svg/user_stories_7.svg"
 					alt="user stories"
 					className={styles.companyIcon}
