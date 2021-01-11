@@ -1,26 +1,32 @@
 import styles from "../../styles/options/options.module.scss";
-
+import Image from "next/image";
 const Options = () => {
 	return (
 		<div className={styles.container}>
 			<h2>Instant GraphQL APIs for your data</h2>
 			<div className={styles.innerContainer}>
 				<div className={styles.pLangContainer}>
-					<img
+					<Image
+						height={70}
+						width={80}
 						src="/svg/plang_1.svg"
 						alt="postgresql icon"
 						className={styles.pLangImg}
 					/>
 				</div>
 				<div className={styles.pLangContainer}>
-					<img
+					<Image
+						height={80}
+						width={80}
 						src="/svg/plang_2.svg"
 						alt="msql icon"
 						className={styles.pLangImg}
 					/>
 				</div>
 				<div className={styles.pLangContainer}>
-					<img
+					<Image
+						height={80}
+						width={80}
 						src="/svg/plang_3.svg"
 						alt="sql server icon"
 						className={styles.pLangImg}
