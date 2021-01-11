@@ -8,7 +8,7 @@ const Navbar = () => {
 			<div className={styles.navbarItems}>
 				<Link href="/">
 					<a>
-						<Logo />
+						<Logo alt="logo icon" />
 					</a>
 				</Link>
 

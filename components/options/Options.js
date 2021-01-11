@@ -8,21 +8,21 @@ const Options = () => {
 				<div className={styles.pLangContainer}>
 					<img
 						src="/svg/plang_1.svg"
-						alt=""
+						alt="postgresql icon"
 						className={styles.pLangImg}
 					/>
 				</div>
 				<div className={styles.pLangContainer}>
 					<img
 						src="/svg/plang_2.svg"
-						alt=""
+						alt="msql icon"
 						className={styles.pLangImg}
 					/>
 				</div>
 				<div className={styles.pLangContainer}>
 					<img
 						src="/svg/plang_3.svg"
-						alt=""
+						alt="sql server icon"
 						className={styles.pLangImg}
 					/>
 				</div>

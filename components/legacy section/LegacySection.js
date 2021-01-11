@@ -35,6 +35,7 @@ const LegacySection = () => {
 							src="/svg/enterprise.svg"
 							height="200"
 							width="200"
+							alt="enterprise icon"
 						/>
 					</div>
 				</div>

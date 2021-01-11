@@ -8,10 +8,19 @@ import CloudSection from "../components/Cloud Section/CloudSection";
 import LegacySection from "../components/legacy section/LegacySection";
 import Events from "../components/events/Events";
 import Footer from "../components/footer/Footer";
+import Head from "next/head";
 
 export default function Home() {
 	return (
 		<>
+			<Head>
+				<title>Hasura | Instant GraphQL API's for your data</title>
+				<meta
+					name="viewport"
+					content="initial-scale=1.0, width=device-width"
+					key="viewport"
+				/>
+			</Head>
 			<NavBar />
 			<div className={styles.container}>
 				<MainJumbotron />

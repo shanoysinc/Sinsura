@@ -42,6 +42,7 @@ const CloudSection = () => {
 							src="/svg/lightening.svg"
 							height="200"
 							width="200"
+							alt="lightening icon"
 						/>
 					</div>
 				</div>

@@ -31,12 +31,15 @@ const Events = () => {
 							<div className={styles.workshop__v}>
 								<img
 									src="/svg/workshop-v.svg"
-									alt=""
+									alt="workshop icon"
 									className={styles.workshop__vSvg}
 								/>
 							</div>
 							<div className={styles.workshop__h}>
-								<img src="/svg/workshop-h.svg" alt="" />
+								<img
+									src="/svg/workshop-h.svg"
+									alt="workshop icon"
+								/>
 							</div>
 							<p className={styles.gridParagraph}>
 								Asia's biggest GraphQL Conference is coming back
@@ -49,7 +52,7 @@ const Events = () => {
 						<div>
 							<img
 								src="/svg/community-call.svg"
-								alt=""
+								alt="community call icon"
 								className={styles.communityCallSvg}
 							/>
 							<p className={styles.gridParagraph}>

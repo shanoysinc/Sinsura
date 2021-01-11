@@ -9,22 +9,42 @@ const CopyWriteInfo = () => {
 			<div className={styles.socialIconsContainer}>
 				<Link href="/">
 					<a>
-						<Image src="/svg/github.svg" height={15} width={15} />
+						<Image
+							src="/svg/github.svg"
+							height={15}
+							width={15}
+							alt="github icon"
+						/>
 					</a>
 				</Link>
 				<Link href="/">
 					<a>
-						<Image src="/svg/twitter.svg" height={15} width={15} />
+						<Image
+							src="/svg/twitter.svg"
+							height={15}
+							width={15}
+							alt="twitter icon"
+						/>
 					</a>
 				</Link>
 				<Link href="/">
 					<a>
-						<Image src="/svg/discord.svg" height={15} width={15} />
+						<Image
+							src="/svg/discord.svg"
+							height={15}
+							width={15}
+							alt="discord icon"
+						/>
 					</a>
 				</Link>
 				<Link href="/">
 					<a>
-						<Image src="/svg/facebook.svg" height={15} width={15} />
+						<Image
+							src="/svg/facebook.svg"
+							height={15}
+							width={15}
+							alt="facebook icon"
+						/>
 					</a>
 				</Link>
 				<Link href="/">
@@ -33,17 +53,28 @@ const CopyWriteInfo = () => {
 							src="/svg/instagram.svg"
 							height={15}
 							width={15}
+							alt="instagram icon"
 						/>
 					</a>
 				</Link>
 				<Link href="/">
 					<a>
-						<Image src="/svg/utube.svg" height={15} width={15} />
+						<Image
+							src="/svg/utube.svg"
+							height={15}
+							width={15}
+							alt="utube icon"
+						/>
 					</a>
 				</Link>
 				<Link href="/">
 					<a>
-						<Image src="/svg/linkedin.svg" height={15} width={15} />
+						<Image
+							src="/svg/linkedin.svg"
+							height={15}
+							width={15}
+							alt="linkedin icon"
+						/>
 					</a>
 				</Link>
 			</div>
