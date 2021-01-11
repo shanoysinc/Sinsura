@@ -15,7 +15,7 @@ export default function Home() {
 		<>
 			<Head>
 				<title>Hasura | Instant GraphQL API's for your data</title>
-				<meta charset="UTF-8" />
+				<meta charSet="UTF-8" />
 				<meta
 					name="description"
 					content="Hasura is a privately held software technology company that builds developer tooling products, including open source tools, backend as a service and platform as a service products. "
