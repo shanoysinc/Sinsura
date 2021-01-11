@@ -43,6 +43,7 @@ const Navbar = () => {
 						height={35}
 						width={35}
 						src="/svg/hamburgerIcon.svg"
+						alt="hamburger icon"
 					/>
 				</div>
 			</div>

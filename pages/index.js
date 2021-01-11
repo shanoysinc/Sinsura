@@ -15,6 +15,7 @@ export default function Home() {
 		<>
 			<Head>
 				<title>Hasura | Instant GraphQL API's for your data</title>
+				<meta charset="UTF-8" />
 				<meta
 					name="viewport"
 					content="initial-scale=1.0, width=device-width"
