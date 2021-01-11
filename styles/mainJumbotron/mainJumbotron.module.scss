@@ -55,6 +55,9 @@
 	.title {
 		font-size: 4.375rem;
 	}
+	.paragraph {
+		font-size: 1rem;
+	}
 	.btnContainer {
 		& > a {
 			& > .btn {
@@ -75,6 +78,7 @@
 		margin-left: 12em;
 		margin-right: 12em;
 	}
+
 	.subTitle {
 		font-size: 1.5rem;
 	}
