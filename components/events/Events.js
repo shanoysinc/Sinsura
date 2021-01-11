@@ -30,14 +30,14 @@ const Events = () => {
 						<div>
 							<div className={styles.workshop__v}>
 								<img
-									src="/svg/workshop-v.svg"
+									src="/svg/workshop-v.png"
 									alt="workshop icon"
 									className={styles.workshop__vSvg}
 								/>
 							</div>
 							<div className={styles.workshop__h}>
 								<img
-									src="/svg/workshop-h.svg"
+									src="/svg/workshop-h.png"
 									alt="workshop icon"
 								/>
 							</div>
