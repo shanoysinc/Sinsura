@@ -69,3 +69,13 @@
 		}
 	}
 }
+
+@media screen and (min-width: 70em) {
+	.container {
+		margin-left: 12em;
+		margin-right: 12em;
+	}
+	.subTitle {
+		font-size: 1.5rem;
+	}
+}
