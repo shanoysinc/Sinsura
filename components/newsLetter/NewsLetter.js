@@ -10,7 +10,7 @@ const NewsLetter = () => {
 				strict no-spam rule. ✌️
 			</p>
 			<div className={styles.inputContainer}>
-				<label htmlFor="email"></label>
+				<label htmlFor="email"> </label>
 				<input
 					type="text"
 					placeholder="Your Email Address"
