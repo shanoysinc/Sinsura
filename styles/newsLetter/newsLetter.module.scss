@@ -54,4 +54,9 @@
 			}
 		}
 	}
+	.newsLetterContainer {
+		& > p {
+			font-size: 1rem;
+		}
+	}
 }
