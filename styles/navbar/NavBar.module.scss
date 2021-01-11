@@ -39,6 +39,9 @@
 		text-transform: uppercase;
 		letter-spacing: 0.03em;
 	}
+	.navLinks:hover {
+		color: hsl(216, 6%, 70%);
+	}
 	.navLinkButton {
 		background-color: hsla(191, 75%, 47%, 0.8);
 		margin-left: 2em;
