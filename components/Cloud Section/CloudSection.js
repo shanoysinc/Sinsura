@@ -73,10 +73,12 @@ const CloudSection = () => {
 						title="API Limiting"
 						content="Setup API rate limits and depth limits to prevent abuse/ DoS attacks on your GraphQL API. You can manage QoS with user identity & session aware configuration."
 					/>
-					<BlogCard
-						image="/svg/graphql.svg"
-						content="GraphQl in Production"
-					/>
+					<div className={styles.blogCardContainer}>
+						<BlogCard
+							image="/svg/graphql.svg"
+							content="GraphQl in Production"
+						/>
+					</div>
 				</div>
 			</div>
 		</div>
