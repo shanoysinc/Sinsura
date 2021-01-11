@@ -1,6 +1,4 @@
 import styles from "../../styles/events/events.module.scss";
-import Image from "next/image";
-import Link from "next/link";
 
 const Events = () => {
 	return (
