@@ -15,10 +15,14 @@
 }
 
 @media screen and (min-width: 70em) {
+	.navbar {
+		border-bottom: none;
+		box-shadow: none;
+	}
 	.navbarItems {
 		margin: 0 8em;
 		align-items: center;
-		justify-content: unset;
+		justify-content: center;
 	}
 	.navbarList {
 		display: inline-block;
