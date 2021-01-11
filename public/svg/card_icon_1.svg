@@ -1,12 +1,1 @@
-<svg width="168" height="168" viewBox="0 0 168 168" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="168" height="168">
-<path d="M0 8C0 3.58172 3.58172 0 8 0H168V168H8C3.58172 168 0 164.418 0 160V8Z" fill="#C4C4C4"/>
-</mask>
-<g mask="url(#mask0)">
-<path d="M-27 -2H187V170H-27V-2Z" fill="#FFC267"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M42 57.0061C36.4772 57.0061 32 61.4833 32 67.0061V102.712C32 108.234 36.4772 112.712 42 112.712H59.8991L69.2288 122.041L78.5585 112.712H95.2966C100.819 112.712 105.297 108.234 105.297 102.712V67.0061C105.297 61.4833 100.819 57.0061 95.2966 57.0061H42Z" fill="#F8F8F8"/>
-<circle cx="105" cy="55.9502" r="23" fill="#2EB67D"/>
-<circle cx="105" cy="88.9502" r="23" fill="#5C94C8"/>
-<circle cx="105" cy="113.95" r="23" fill="#1B2738"/>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="168" fill="none"  xmlns:v="https://vecta.io/nano"><mask id="A" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="168" height="168"><path d="M0 8a8 8 0 0 1 8-8h160v168H8a8 8 0 0 1-8-8V8z" fill="#c4c4c4"/></mask><g mask="url(#A)"><path d="M-27-2h214v172H-27V-2z" fill="#ffc267"/><path fill-rule="evenodd" d="M42 57.006c-5.523 0-10 4.477-10 10v35.706c0 5.522 4.477 10 10 10h17.899l9.33 9.329 9.33-9.329h16.738c5.522 0 10-4.478 10-10V67.006c0-5.523-4.478-10-10-10H42z" fill="#f8f8f8"/><circle cx="105" cy="55.95" r="23" fill="#2eb67d"/><circle cx="105" cy="88.95" r="23" fill="#5c94c8"/><circle cx="105" cy="113.95" r="23" fill="#1b2738"/></g></svg>
