@@ -10,6 +10,7 @@ const CompanyStories = () => {
 					src="/svg/user_stories_1.svg"
 					alt="user stories"
 					className={styles.companyIcon}
+					loading="lazy"
 				/>
 				<Image
 					width={140}
@@ -17,6 +18,7 @@ const CompanyStories = () => {
 					src="/svg/user_stories_2.svg"
 					alt="user stories"
 					className={styles.companyIcon}
+					loading="lazy"
 				/>
 				<Image
 					width={80}
@@ -24,6 +26,7 @@ const CompanyStories = () => {
 					src="/svg/user_stories_3.svg"
 					alt="user stories"
 					className={styles.companyIcon}
+					loading="lazy"
 				/>
 				<Image
 					width={140}
@@ -31,6 +34,7 @@ const CompanyStories = () => {
 					src="/svg/user_stories_4.svg"
 					alt="user stories"
 					className={styles.companyIcon}
+					loading="lazy"
 				/>
 				<Image
 					width={140}
@@ -38,6 +42,7 @@ const CompanyStories = () => {
 					src="/svg/user_stories_5.svg"
 					alt="user stories"
 					className={styles.companyIcon}
+					loading="lazy"
 				/>
 				<Image
 					width={140}
@@ -45,6 +50,7 @@ const CompanyStories = () => {
 					src="/svg/user_stories_6.svg"
 					alt="user stories"
 					className={styles.companyIcon}
+					loading="lazy"
 				/>
 				<Image
 					width={140}
@@ -52,6 +58,7 @@ const CompanyStories = () => {
 					src="/svg/user_stories_7.svg"
 					alt="user stories"
 					className={styles.companyIcon}
+					loading="lazy"
 				/>
 			</div>
 

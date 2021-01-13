@@ -13,6 +13,7 @@ const Navbar = () => {
 							src="/svg/logo.svg"
 							height={40}
 							width={120}
+							loading="lazy"
 						/>
 					</a>
 				</Link>
@@ -49,6 +50,7 @@ const Navbar = () => {
 						width={35}
 						src="/svg/hamburgerIcon.svg"
 						alt="hamburger icon"
+						loading="lazy"
 					/>
 				</div>
 			</div>
