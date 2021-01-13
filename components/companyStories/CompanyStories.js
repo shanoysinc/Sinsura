@@ -19,8 +19,8 @@ const CompanyStories = () => {
 					className={styles.companyIcon}
 				/>
 				<Image
-					width={100}
-					height={100}
+					width={80}
+					height={40}
 					src="/svg/user_stories_3.svg"
 					alt="user stories"
 					className={styles.companyIcon}

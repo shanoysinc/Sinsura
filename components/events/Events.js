@@ -31,12 +31,14 @@ const Events = () => {
 									src="/svg/workshop-v.png"
 									alt="workshop icon"
 									className={styles.workshop__vSvg}
+									loading="lazy"
 								/>
 							</div>
 							<div className={styles.workshop__h}>
 								<img
 									src="/svg/workshop-h.png"
 									alt="workshop icon"
+									loading="lazy"
 								/>
 							</div>
 							<p className={styles.gridParagraph}>
@@ -52,6 +54,7 @@ const Events = () => {
 								src="/svg/community-call.svg"
 								alt="community call icon"
 								className={styles.communityCallSvg}
+								loading="lazy"
 							/>
 							<p className={styles.gridParagraph}>
 								Join our monthly call and stay up-to-date on all
